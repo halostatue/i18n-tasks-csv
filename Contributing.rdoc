@@ -1,0 +1,36 @@
+== Contributing
+
+I value any contribution to i18n-tasks-csv you can provide: a bug report, a
+feature request, or code contributions.
+
+=== Dependencies
+
+i18n-tasks-csv uses Ryan Davis’s {Hoe}[https://github.com/seattlerb/hoe] to
+manage the release process, and it adds a number of rake tasks. To assist with
+the installation of the development dependencies for i18n-tasks-csv, I have
+provided the simplest possible Gemfile pointing to the (generated)
++i18n-tasks-csv.gemspec+ file. This will permit you to do:
+
+    $ bundle install
+
+to get the development dependencies.
+
+=== Workflow
+
+Here's the most direct way to get your work merged into the project:
+
+* Fork the project.
+* Clone down your fork (<tt>git clone git://github.com/<username>/i18n-tasks-csv.git</tt>).
+* Create a topic branch to contain your change (<tt>git checkout -b my\_awesome\_feature</tt>).
+* Hack away, add tests. Not necessarily in that order.
+* Make sure everything still passes by running +rake+.
+* If necessary, rebase your commits into logical chunks, without errors.
+* Push the branch up (<tt>git push origin my\_awesome\_feature</tt>).
+* Create a pull request against halostatue/i18n-tasks-csv and describe
+  what your change does and the why you think it should be merged.
+
+=== Contributors
+
+* Austin Ziegler created i18n-tasks-csv based on work by Kai Schlicting.
+* Kai Schlicting created the tasks originally presented in the {i18n-tasks
+  Wiki}[https://github.com/glebm/i18n-tasks/wiki/Custom-CSV-import-and-export-tasks].

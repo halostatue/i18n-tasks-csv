@@ -1,0 +1,8 @@
+=== 1.0 / 2015-07-08
+
+* 1 major enhancement
+
+  * Birthday as a gem, pulled from the
+    {i18n-tasks
+    Wiki}[https://github.com/glebm/i18n-tasks/wiki/Custom-CSV-import-and-export-tasks]
+    originally by @lacco.

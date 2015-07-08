@@ -1,0 +1,14 @@
+= i18n-tasks-csv
+
+home :: https://github.com/halostatue/i18n-tasks-csv/
+bugs :: https://github.com/halostatue/i18n-tasks-csv/issues
+
+== Description
+
+This is a packaged gem version of the CSV import/export tasks on the
+{i18n-tasks
+Wiki}[https://github.com/glebm/i18n-tasks/wiki/Custom-CSV-import-and-export-tasks].
+
+:include: Contributing.rdoc
+
+:include: Licence.rdoc

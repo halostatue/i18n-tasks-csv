@@ -1,0 +1,8 @@
+Contributing.rdoc
+Gemfile
+History.rdoc
+Licence.rdoc
+Manifest.txt
+README.rdoc
+Rakefile
+lib/i18n-tasks-csv.rb
