@@ -1,3 +1,4 @@
+require 'i18n/tasks/commands'
 require 'csv'
 
 module I18nTasksCsv
@@ -63,4 +64,4 @@ module I18nTasksCsv
   end
 end
 
-I18n::Tasks::Commands.send :include, I18nTasksCsv
+I18n::Tasks.add_commands I18nTasksCsv
