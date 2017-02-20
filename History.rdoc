@@ -1,3 +1,11 @@
+=== 1.1 / 2017-02-20
+
+*   1 minor enhancement:
+
+    *   The creator of i18n-tasks, @glebm, provided fix #1 to an issue where
+        tests would not run properly (glebm/i18n-tasks#230) with this gem in
+        place. Thanks!
+
 === 1.0 / 2015-07-08
 
 * 1 major enhancement

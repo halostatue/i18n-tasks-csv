@@ -2,7 +2,7 @@ require 'i18n/tasks/commands'
 require 'csv'
 
 module I18nTasksCsv
-  VERSION = '1.0'
+  VERSION = '1.1'
 
   include ::I18n::Tasks::Command::Collection
   cmd :csv_export, desc: 'export translations to CSV'
@@ -64,4 +64,8 @@ module I18nTasksCsv
   end
 end
 
-I18n::Tasks.add_commands I18nTasksCsv
+if I18n::Tasks.respond_to?(:add_commands)
+  I18n::Tasks.add_commands I18nTasksCsv
+else
+  I18n::Tasks::Commands.send(:include, I18nTasksCsv)
+end

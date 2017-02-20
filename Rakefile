@@ -32,7 +32,7 @@ Hoe.spec 'i18n-tasks-csv' do
 
   license 'MIT'
 
-  extra_deps << ['i18n-tasks', '~> 0.8']
+  extra_deps << ['i18n-tasks', '~> 0.9']
 
   extra_dev_deps << ['hoe-doofus', '~> 1.0']
   extra_dev_deps << ['hoe-gemspec2', '~> 1.1']
