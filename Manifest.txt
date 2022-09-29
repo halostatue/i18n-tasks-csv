@@ -1,3 +1,4 @@
+.hoerc
 Contributing.rdoc
 Gemfile
 History.rdoc
